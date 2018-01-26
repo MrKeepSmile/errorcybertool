@@ -361,15 +361,23 @@ fi
 
 if [ $eue = 22 ] || [ $eue = 22  ]
 then
-echo " gapunya kuota ya ? "
+clear
+echo " gapunya kuota ya ?? punya(P) tidak(T) : "
+read eue
+fi
+
+
+if [ $eue = P ] || [ $eue = P  ]
+then
+echo " tumben Mastah Ku Punya kuota:D "
 sleep 1
-echo " one..."
-sleep 1
-echo " two..."
-sleep 1
-echo " three..."
-sleep 1
-echo " beli dong ah jangan gratisan mulu mau nya :p "
+fi
+
+
+if [ $eue = T ] || [ $eue = T  ]
+then
+echo " Haha kasian , beli dong :p "
 sleep 1
 exit
 fi
+
